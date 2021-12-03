@@ -1,0 +1,164 @@
+body {
+  background-color: rgb(237, 239, 244);
+  color: rgb(30,30,30);
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  line-height: normal;
+}
+
+h1 {
+    color: #D0826F;
+    font-weight: 100px;
+    letter-spacing: 6px;
+    font-size: 30px;
+    line-height: normal;
+    margin-top: 6px;
+}
+
+h2 {
+  color: #D0826F;
+  font-weight: 200px;
+  letter-spacing: 0px;
+  font-size: 27px;
+  line-height: normal;
+  text-align: center;
+  margin-top: 3px;
+}
+
+h3 {
+  color: rgb(38, 53, 71);
+  font-size: 18px;
+}
+
+h4 {
+  color: rgb(38, 53, 71);
+  font-size: 12px;
+  margin-top: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: #fca311;
+}
+
+/*custom design with class*/
+
+.container {
+  width: 760px;
+  margin: 40px auto;
+
+}
+
+.header {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 20px auto;
+    text-align: center;
+    width: 750px;
+
+}
+.card-white {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 20px auto;
+    text-align: none;
+    width: 750px;
+
+}
+
+.footer {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 20px auto;
+    text-align: center;
+    width: 750px;
+}
+
+#skills p {
+  margin-bottom: -7px;
+  margin-top: 28px;
+}
+
+#experiences p {
+  margin-bottom: -18px;
+  margin-top: 28px;
+}
+
+#experiences-associatives p {
+  margin-bottom: -18px;
+  margin-top: 28px;
+}
+
+.img-circle {
+  height: 250px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+  box-shadow: 0 0 20px rgba(000,000,000, .5);
+}
+
+.btn-blue {
+  background-color: rgb(84, 84, 84);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #c38e70;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+  font-size: 50px;
+  color: black;
+}
+
+.imgpassions-circle {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 100px;
+  box-shadow: 0 0 20px rgba(000,000,000, .5);
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
